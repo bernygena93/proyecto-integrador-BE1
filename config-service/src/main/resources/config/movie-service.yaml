@@ -10,6 +10,11 @@ spring:
     deferDatasourceInitialization: true
     hibernate:
       ddlAuto: create-drop
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
 
 server:
   port: 8081

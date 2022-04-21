@@ -9,8 +9,8 @@ spring:
             issuer-uri: https://accounts.google.com
         registration:
           google:
-            client-id: ""
-            client-secret: ""
+            client-id: 336191087809-m73nk29acbfnqc0ap94i4ifm04q52u5f.apps.googleusercontent.com
+            client-secret: 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
             scope: openid,profile,email
             redirect-uri: http://localhost:8080/login/oauth2/code/google
   cloud:

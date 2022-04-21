@@ -5,6 +5,8 @@ management:
         include: '*'
   endpoint:
     health:
+      circuitbreakers:
+        enabled: true
       enabled: true
       show-details: always
     shutdown:
